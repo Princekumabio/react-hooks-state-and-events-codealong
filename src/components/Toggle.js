@@ -9,7 +9,7 @@ function Toggle() {
     setActive(active => !active)
   }
 
-  const color = active ? 'white' : 'red';
+  const color = active ? 'red' : 'white';
 
   return <button style={{ background: color }} onClick={handleClick}>{active ? 'ON' : 'OFF'}</button>;
 }
